@@ -4,4 +4,6 @@ class Place < ActiveRecord::Base
 
   attr_protected :lat, :lng
 
+  belongs_to :user
+
 end
